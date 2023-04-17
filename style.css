@@ -502,6 +502,10 @@ iframe{
     .nav-logo img{
         width: 110px;
     }
+
+    .card{
+        width: 280px;
+    }
 }
 
 
