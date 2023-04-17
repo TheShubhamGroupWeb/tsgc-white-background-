@@ -118,6 +118,8 @@ html{
 
 /* ============= cards animation start here =========== */
 
+
+
 #slider-h{
     /* text-align: center; */
     display: flex;
@@ -130,6 +132,7 @@ html{
 #main-sliders h1{
     font-size: 4rem;
     font-weight: 400;
+    text-align: center;
 }
 
 #main-sliders span{
