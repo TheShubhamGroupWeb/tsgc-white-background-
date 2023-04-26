@@ -1,15 +1,26 @@
-// gsap.to(".our-works", {duration: 2.5, x: 200, backgrounColor: "#ccc", scale: 1.5, ease: "ease",
+gsap.from("#home-content-h", {duration: 2.5, x: -700, ease: "ease",
 // repeat: -1,
-// delay: 1,
+delay: 1,
 // yoyo: true,
-// rotate:("1deg"),
-// fontWeight: 700,
-// margin: 2,
-// padding: 2
-// })
+// rotate:("30deg"),
+fontWeight: 700,
+margin: 2,
+padding: 2
+})
 
 
-// gsap.from('.our-works', {
+
+gsap.from("#of-companies", { 
+    duration: 2.5,
+    // backgroundColor: '#8d3dae',
+    // rotate:("360deg"),
+    x: -700,
+    delay: 1.5,
+    ease: "linear"
+
+  });
+
+// gsap.from('#home-content-h', {
 //   duration: 2.5,
 //   delay: 3.5,
 //   x: 1500,
@@ -18,11 +29,11 @@
 // })
 
 
-// gsap.from("#main-swipper", { 
-//     duration: 1.5,
-//     // backgroundColor: '#8d3dae',
-//     // rotate:("360deg"),
-//     x: 2200,
-//     y: 1000,
-//     delay: 1.5
-//   });
+gsap.from("#what-we-do", { 
+    duration: 3.5,
+    // backgroundColor: '#8d3dae',
+    // rotate:("360deg"),
+    x: -900,
+    delay: 3.5,
+    ease: "linear"
+  });

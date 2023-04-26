@@ -12,12 +12,16 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
+#contact-h1{
+  text-align: center;
+}
+
 .container {
   position: relative;
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
-  background-color: #fafafa;
+  background-color: rgba(231,184,128, 0.7);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -37,7 +41,7 @@ textarea {
 }
 
 .contact-form {
-  background-color: #1abc9c;
+  background-color:#0c362f ;
   position: relative;
 }
 
@@ -66,7 +70,8 @@ textarea {
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #1abc9c;
+  /* background-color: #006608; */
+  background-color: #149279;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
@@ -192,7 +197,8 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: #1abc9c;
+  /* background-color: #006608; */
+  background-color: #149279;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -224,7 +230,8 @@ textarea.input {
 }
 
 .contact-info .title {
-  color: #1abc9c;
+  /* color: #1abc9c; */
+  color: #006608;
 }
 
 .text {
@@ -262,7 +269,7 @@ textarea.input {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #a2aaa9, #f8f5e9);
+  background: linear-gradient(45deg, #e9e8e8, #f8e9e9);
   /* color: #fff; */
   text-align: center;
   line-height: 35px;
@@ -291,18 +298,21 @@ textarea.input {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #1cd4af, #159b80);
+  background: linear-gradient(to bottom, #222,#149279 , #0c362f);
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);
 }
+
+
 
 .big-circle:after {
   content: "";
   position: absolute;
   width: 360px;
   height: 360px;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-color: #edcba2;
   border-radius: 50%;
   top: calc(50% - 180px);
   left: calc(50% - 180px);
@@ -429,4 +439,54 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
+}
+
+
+#contact-now{
+  background: linear-gradient(to right bottom,#0c362f 65%, #006608);
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-now-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 7rem; */
+  /* margin-bottom: 5rem; */
+  /* color: #fff; */
+  color:  rgba(231,184,128, 0.9);
+  font-weight: 700;
+}
+
+#contact-now-btn{
+  margin-top: 2rem;
+}
+
+#contact-now-container a{
+  text-decoration: none;
+  /* background-color:rgb(61,168,251); */
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  /* color: #fff;     */
+  color:  rgba(231,184,128, 0.9);
+  box-shadow:  0px 5px 5px rgb(17, 81, 130), 7px 7px 12px rgba(0,0,0,0.7);
+
+
+
+  transition: 0.3s ease-in; 
+  outline: none;
+  margin-top: 2rem;
+}
+
+
+
+#contact-now-container a:hover{
+ 
+  box-shadow:  0px 5px 12px rgba(231,184,128, 0.8), 7px 7px 18px rgba(0,0,0,0.7); 
 }

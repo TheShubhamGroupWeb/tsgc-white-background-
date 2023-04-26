@@ -15,11 +15,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="contact.css">
+    
+    <!-- for shubham heading -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Spectral:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+
     <script
     src="https://kit.fontawesome.com/64d58efce2.js"
     crossorigin="anonymous"
   ></script>
-
   <!-- raleway fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
@@ -210,7 +214,7 @@
     <div class="large-screen-menu "  id="nav">
         
         <a class="nav-items " href="#home">Home</a>
-        <a class="nav-items "  href=".#about">About Us</a>
+        <a class="nav-items "  href="#about">About Us</a>
         <!-- <a class="nav-items" href="#">Our Team</a> -->
         <a class="nav-items" href="#our-projects">Our Projects</a>
         <a class="nav-items" href="#contact">Vendor</a>
@@ -218,7 +222,7 @@
         <a class="nav-items" href="#contact">Associates</a>
 
 
-        <a class="nav-items" href="#">Gallary</a>
+        <a class="nav-items" href="#">Gallery</a>
         <a class="nav-items" href="#contact">Contact</a>
              
       </div>            
@@ -243,7 +247,7 @@
         <a href="#contact">Vendor</a>
         <a href="#contact">Investor</a>
         <a href="#contact">Associates</a>
-        <a href="#">Gallary</a>
+        <a href="#">Gallery</a>
         <a href="#contact">Contact</a>
 
         <span class="menu-icon" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
@@ -327,8 +331,8 @@
 
         
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
         <div class="swiper-pagination"></div>
       </div>
 </div>
@@ -343,8 +347,12 @@
     <div id="home-wrapper">
 
         <div id="home-content-h">
-            <h1>Welcome To <br>  <span id="shubham-group"> The Shubham Group</span> <br> of <br> Companies</h1>
-           
+            <h1><span id="shubham-group">The Shubham Group</span></h1>
+
+            <h1 id="of-companies">Of Companies</h1>
+            
+            <h3 id="what-we-do">Real Estate, Construction, Resorts, Collaboration</h3>
+            
         </div>
     </div> <!---home-wrapper-->
 </section> <!---- home container-->
@@ -422,7 +430,7 @@
     <section id="about">
        
 
-        <h1 id="about-us-h">About us</h1>
+        <h1 id="about-us-h">About <span class="green-color-text">us</span></h1>
         <div id="about-container">
 
 
@@ -430,9 +438,25 @@
                 <div id="content">
 
                         
-                    <p>VIEW THE EXTRAORDINARY</p>
-                    <h1>Homes in Shubham Group</h1>
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae id voluptatibus placeat doloremque fuga nobis error quam atque. Asperiores repellat id exercitationem ratione amet! Aut iusto id, minus molestiae repellendus delectus veniam suscipit. Placeat, ipsam?</h3>
+                    <p>SHAPING YOUR DREAMS...</p>
+                    <h1>The Shubham Group.</h1>
+                    
+                    <h3>Shubham Build up Pvt Ltd. started its journey in 2009 with the aim of providing the second
+                        home in the bosom of nature with the fragrance of spiritual ambience. We are determined to
+                        provide a priceless life style away from the busy city life as a gift for the people who prefer to live
+                        the second phase of life adoring nature.</h3>
+
+                        <h3>The Shubham Group has successfully launched and delivered its three residential projects named
+                           <span class="project-bold"> Indus valley Mukteshwar Nainital, Ambika Divinity Haridwar and Indus valley Shimla </span> with
+                            the growth of 200% in a decade .
+                            In a less span of time, the company has drastically entered other fields such as Collaboration,
+                            Construction and Resorts. To manage this expansion Shubham Buildup Pvt Ltd. converted into THE
+                            SHUBHAM GROUP OF COMPANIES (TSGC Delhi). </h3>
+                       
+
+                         
+
+                              
                     
 
                 </div> <!-- content -->
@@ -457,22 +481,41 @@
 
 
 <!-- ================ explore ======== -->
+
     <div id="our-projects">
     <section id="main-sliders">
 
         <div id="slider-h">
             
-        <h1>Explore <span> OUR PROJECTS</span></h1>
-        <p>Looking for a flexible theme with enough features to have it look differently with every new website created? Then Lotus might be your perfect choice!</p>
+        <h1>Explore <span class="green-color-text"> OUR PROJECTS...</span></h1>
+        <h3>After the remarkbale success in shaping the dream house on breath taking mountains. The Shubham Group of Companies (tsgc) has now entered into other fields.</h3>
+        <p>TSGC Delhi holds the following companies under itself.</p>
+
+        <div id="tsgc-companies">
+            <ul>
+                <li>Shubham Build Up LTD</li>
+                <li>Shubham Buildtech LLP</li>
+                <li>Shubham Builston LLP</li>
+                <li>Shape My House</li>
+                <li>Chail Heights Villa LLP</li>
+                <li>Chail Heights Resort LLP</li>
+                <li>Nirmanam Relators LLP</li>
+            </ul>
         </div>
 
-        <!-- ===== cards animations starts from here === -->
+
+      
+        
  <div class="card-container">
     <div class="wrapper">
 
 
         <div class="card-body">
+            <div class="property-desc" >
+                <h1 style="font-size: 1rem; margin-top: -16%; font-size: 1.5rem; text-decoration: underline;">Appartments & Villas</h1>
+            </div>
         <div class="card">
+            
             <img src="./images/indus-valley.png" alt=""> 
             <div class="info">
                 <!-- <h1>Heading</h1>
@@ -484,6 +527,10 @@
         <div class="property-type">
            <a href="https://www.indusvalleymukteshwar.com/" target="_blank">www.indusvalleymukteshwar.com</a>
         </div>
+
+        <!-- <div id="type-property1">
+            <h1>Appartment & Villas</h1>
+        </div> -->
     </div> <!--- card body-->
 
    
@@ -518,12 +565,18 @@
         <div class="property-type">
             <a href="https://chailheightsvillas.com/">www.chailheightsvillas.com</a>
          </div>
+
+         
     </div> <!--- card body-->
 
 
 
 
     <div class="card-body">
+        <div class="property-desc" >
+            <h1 style="font-size: 1rem; margin-top: -16%; font-size: 1.5rem; text-decoration: underline;">Upcoming Resorts</h1>
+        </div>
+
         <div class="card">
             <img src="./images/chail-height-resorts.png" alt=""> 
             <div class="info">
@@ -572,6 +625,9 @@
 
 
     <div class="card-body">
+        <div class="property-desc">
+            <h1 style="font-size: 1.5rem; margin-top: -16%; text-decoration: underline;">Land Trading & Constructions</h1>
+        </div>
         <div class="card">
             <img src="./images/nirman-relators.png" alt=""> 
             <div class="info">
@@ -618,7 +674,10 @@
 <!-- ============== XX explore XX ======== -->
 
 
+</div>
 
+     
+<!-- ===== cards animations starts from here === -->
 
 
 
@@ -627,8 +686,9 @@
         <div id="theme-feature-container">
 
             <div id="theme-feature-h">
-                <h1>Theme Features</h1>
-                <p>Lotus comes with a lot of features, we have so many of them it would take you too much time to read about our features! We decided to make a quick list of the main features, check the pages to see the features in action</p>
+             
+                <h1>Our <span class="green-color-text">Gallery</span></h1>
+                <!-- <p>Lotus comes with a lot of features, we have so many of them it would take you too much time to read about our features! We decided to make a quick list of the main features, check the pages to see the features in action</p> -->
             </div>
 
            
@@ -640,6 +700,7 @@
 
     <!-- ======== contact-us ============ -->
     <section id="contact">
+        <!-- <h1 id="contact-h1">Fiil The Contact Form To know more</h1> -->
     <div class="container">
         <span class="big-circle"></span>
         <img src="img/shape.png" class="square" alt="" />
@@ -765,8 +826,10 @@
     <section id="contact-now">
         <div id="contact-now-container">
 
+            <h3>ARE YOU INTERESTED ?</h3>
+            <p>Get in touch Touch with us if you would like to know more</p>
             <div id="contact-now-btn">
-                <a href="#">Contact Now</a>
+                <a href="tel:8510850101">Contact Now</a>
             </div>
 
         </div>
@@ -780,7 +843,7 @@
         <div id="footer-container">
 
             <div id="coporate-office">
-                <h1>Coporate office</h1>
+                <h1>Corporate office</h1>
                 <p>The Shubham Group Of Companies, <br> A34, Okhala Industrial Area, <br> Phase-1, Behind Hotel Crown Plaza, <br> New Delhi - 110020</p>
             </div>
 
@@ -828,6 +891,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 
 
 <script src="script.js"></script>
